@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: listen-domain-demo
+  description: listem domain测试
+  annotations:
+    github.com/project-slug: backstage/demo
+spec:
+  type: website
+  owner: lzing
+  lifecycle: experimental
